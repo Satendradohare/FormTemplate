@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Simple Form</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+      <h2>Simple Form</h2>
+      <form id="myForm" action="#" method="post" enctype="multipart/form-data">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+    
+        <label for="weight">Weight:</label>
+        <input type="number" id="weight" name="weight" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="healthReport">Health Report:</label>
+        <input type="file" id="healthReport" name="healthReport" accept=".pdf" required>
+    
+        <input type="submit" value="Submit">
+      </form>
+    
+      <script src="script.js"></script>
+    </body>
+    </html>
+    
